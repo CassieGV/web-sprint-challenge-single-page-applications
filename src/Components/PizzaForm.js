@@ -1,10 +1,15 @@
 import React from "react";
 
-const PizzaForm = props => {
-    return(
-        <h1>PIZZA</h1>
-    )
-} 
+export default function PizzaForm() {
+    const defaultState = {
+        name: "",
+        email: "",
+        phone: "",
+        size: ""
+    };
 
-export default PizzaForm
+} 
+// Because I am struggling to get this component to show I am unable to see my work
+// I considered too late to just make this in code sandbox
+
 
