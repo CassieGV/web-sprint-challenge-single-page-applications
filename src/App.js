@@ -8,6 +8,10 @@ const App = () => {
     <div className = "Home">
       <h1>Lambda Eats</h1>
       <p>It is always time for pizza</p>
+
+      <button className = "places"> "Resturants" {Places}</button>
+
+
     </div>
   );
 };
