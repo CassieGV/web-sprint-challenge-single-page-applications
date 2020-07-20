@@ -9,8 +9,8 @@ const App = () => {
       <h1>Lambda Eats</h1>
       <p>It is always time for pizza</p>
 
-      <button className = "places"> "Resturants" {Places}</button>
-
+      <button aref = {Places}> Resturants</button>
+      <button aref = {PizzaForm}>Coder Fav</button>
 
     </div>
   );
