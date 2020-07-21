@@ -1,7 +1,13 @@
 import React from "react";
   
-export default function Places() {
-    <h1>List of places</h1>
-}
+const Places = props => {
+    return(
+        <div>
+            <h1>List of places</h1>
+        </div>
+    )
+} 
 
+
+export default Places
 //Planned on creating a list of resturants like in the example
